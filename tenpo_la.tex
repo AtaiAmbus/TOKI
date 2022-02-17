@@ -1,51 +1,169 @@
 \documentclass{article}
-\usepackage{fontspec}
+%% \usepackage{fontspec}
 \usepackage[colorlinks,urlcolor=black]{hyperref}
+\usepackage{polyglossia}
+\usepackage[top=2cm,bottom=2cm,left=2.5cm,right=2cm]{geometry}
 
-\title{tenpo la}
-\author{jan {[}\_a\_tan\_a\_jan{]}}
+\defaultfontfeatures{Path = /usr/local/share/fonts/}
+
+\newfontfamily\hebrewfont{TaameyDavidCLM-Medium.ttf}
+%% \newfontfamily\englishfonttt{TaameyDavidCLM-Medium.ttf}
+\newfontfamily\englishfont{linja-pona.otf}
+
+
+\makeatletter
+\newcommand{\settitle}{\@maketitle}
+\makeatother
+
+\setdefaultlanguage{english}
+\setotherlanguages{hebrew}
+\title{tenpo, la}
+\author{jan {[}\_a\_tan\_a\_ni{]}}
 \date{}
 
 \begin{document}
 %% \fontspec{sitelen-pona-pona}
-\parindent=0em
-\parskip=1em
-\fontspec{linja-pona}
-\large
+    \parindent=0em
+    \parskip=1em
+    %% \fontspec{linja-pona}
+    \large
 
-\maketitle
-tenpo, la sina alasa ala, sina wile alasa ala. \\
-tenpo, la tan li lon ala, \\
-tenpo, la sina tawa, \\
-tawa ala. \\
+    \maketitle
+    tenpo, la sina alasa ala, sina wile alasa ala. \\
+    tenpo, la tan li lon ala, \\
+    tenpo, la sina tawa, \\
+    tawa ala. \\
 
-tenpo, la nasin sina e ike mute \\
-tenpo, la pilin ike lon ali \\
-tenpo, la pilin li awen, \\
-li awen ali. \\
+    tenpo, la nasin sina l ike mute \\
+    tenpo, la pilin ike lon ali \\
+    tenpo, la pilin li awen, \\
+    li awen ali. \\
 
-tenpo, la olin li wile ala \\
-tenpo, la lawa li sona ala \\
-tenpo, la sina sona ala e nasin pona \\
+    tenpo, la olin li wile ala \\
+    tenpo, la lawa li sona ala \\
+    tenpo, la sina sona ala e nasin pona. \\
 
-tenpo, la sina poka e ni: \\
-jan pi++ sona ala, \\
-pi++ wile+sona ala \\
-pi++ wile+lukin ala. \\
+    tenpo, la sina poka e ni: \\
+    jan pi++ sona ala, \\
+    pi++ wile+sona ala \\
+    pi++ wile+lukin ala. \\
 
-%% tenpo ni li lon.
-%% tenpo ni li lon kin.
-\bigskip
+    %% tenpo ni li lon.
+    %% tenpo ni li lon kin.
+    \bigskip
+
+    tenpo, la telo tawa li kalama musi \\
+    tenpo, la kon ko pi++ telo suli li sewi, li sike sina \\
+    tenpo, la telo tawa li kama pakala, la laso lon ali \\
+
+    tenpo, la sewi li loje li jelo li jaki ala \\
+    tenpo, la pimeja li kama pini, suno kama open \\
+    tenpo, la ante ali li lon, la laso kasi li awen \\
+    tenpo, la waso li kalama musi, lon anpa suno lili.
+
+    tenpo, la suno kama pini li pona mute mute tawa jan ali li lukin ona. \\
+    tenpo, la sewi pi++ laso loje li toki pona tawa tenpo kama \\
+    tenpo, la mun suno li luka e ali, lon tenpo pimeja pi++ laso telo \\
+    pi+ kon+lili.
+
+    tenpo, la kon ko li lon ma ali, \\
+    la open li ala \\
+    pini li ala \\
+    lon li ala \\
+    weka li ala. \\
+    la jan ala tan jan ali li pona e ijo tan ijo ali \\
+    mi ali li tawa e ali ante
+
+    tenpo, la pali suli li pana pona \\
+    tenpo, la kulupu pi++ kalama ala li suno suli, ni la nimi li lili mute mute \\
+    tenpo, la pali en musi li suli mute, ni la lawa sina li lili mute mute \\
+    tenpo, la olin li oko e linja lili lili wan sama suno suli mute mute \\
+    tenpo, la lawa li ken luka e ali, li wile sona e ali
+
+    \bigskip
+
+    tenpo, la suno li suli suli mute, \\
+    tenpo, la suno li lili mute li lete mute \\
+    ni, la \\
+    mi wile e ni: toki musi e tenpo ni e tenpo ni, \\
+    mi wile e ni: toki musi pona e ali tawa mi.
 
 
-lon la, tenpo pi+ ni: kalama pi++ telo tawa \\
-lon la. tenpo pi+ ni: kon ko pi++ telo suli. \\
-lon la, tenpo pi+ ni: telo li kama pakala, la laso lon ali \\
 
-lon la, tenpo pi+ ni: sewi li loje li jelo \\
-lon la, tenpo pi+ ni: tenpo pimeja kama pini, suno kama open \\
-lon la, tenpo pi+ ni: ante ali li lon, la laso kasi li awen,  \\
-lon la, tenpo pi+ ni: kalama musi pi waso, lon anpa suno lili, \\
-suno li kama open, lili li kama suli.
 
+
+    \pagebreak
+
+    \begin{hebrew}
+
+        \begin{center}
+          {\huge יש ימים}
+
+          {\Large עתי אמבוס}
+        \end{center}
+
+        \maketitle
+
+        יֵשׁ יָמִים \\
+        שֶׁהַסִּבָּה לֹא נִמְצֵאת \\
+        וְהַמַּטָּרָה אָבְדָה \\
+        וַאֲנַחְנוּ מַמְשִׁיכִים לִצְעֹד \\
+        בַּמָּקוֹם.
+
+        יֵשׁ יָמִים \\
+        שֶׁל טָעוּיוֹת מָרוֹת \\
+        וְתִסְכּוּל הַשּׁוֹכֵן בְּכָל חֶלְקָה טוֹבָה \\
+        וּכְאֵב שֶׁמְּסָרֵב לִשְׁכֹּחַ.
+
+        יֵשׁ יָמִים \\
+        שֶׁהַלֵּב פּוֹחֵד \\
+        וְהָרֹאשׁ הָמוּם \\
+        וְאֵין אַתָּה יוֹדֵעַ לְהֵיכָן לִפְנוֹת.
+
+        יֵשׁ יָמִים \\
+        שֶׁל אֲנָשִׁים שֶׁהָאֱמֶת \\
+        וְהַמַּחְשָׁבָה \\
+        וְכָל רָצוֹן לִרְאוֹת \\
+        מֵהֶם וָהָלְאָה.
+
+
+        וְיֵשׁ יָמִים \\
+        שֶׁל רַעַשׁ הַגַּלִּים \\
+        וְנִתְזֵי עֲרָפֶל הָאוֹפְפִים אֶת הַצּוֹפֶה \\
+        וּתְכוֹל הַמַּיִם הַמִּתְנַפְּצִים עַל הַחוֹף
+
+        וְיֵשׁ יָמִים \\
+        שֶׁל שָׁמַיִם שֶׁצְּבוּעִים בְּאָדֹם וְכָתֹם \\
+        וּזְרִיחָה הָעוֹלֶה מִלַּיְלָה מְעֻנָּן \\
+        וְשָׂדוֹת יְרֻקִּים הַמּוּגַנִּים מִפְּנֵי צָרוֹת הַחוּץ \\
+        וְקוֹלוֹת הַצִּפּוֹרִים הַמְּזַמְּרוֹת לְאוֹר הַשּׁחַר \\
+        שְׁאַט אַט מִשּׁנָתוֹ קָץ.
+
+        וְיֵשׁ יָמִים \\
+        שֶׁל שְׁקִיעוֹת שֶׁנִּפְעַם כֹּל הַצּוֹפֶה בָּהֶן \\
+        וְרָקִיעַ אָדֹם-וָרֹד הַמְּבָרֵךְ אֶת הָעֶרֶב הַבָּא \\
+        וְלַיְלָה כָּחֹל עִם יָרֵחַ בָּהִיר \\
+        וְרוּחַ קַלָּה.
+
+        וְיֵשׁ יָמִים \\
+        שֶׁל עֲרָפֶל הַמְּמַלֵּא אֶת הַכְּפָר \\
+        וּלְפֶתַע אֵין הַתְחָלָה \\
+        וְאֵין סוֹף \\
+        וְאֵין שָׁם אוֹ כָּאן \\
+        וְכָל הַקַּיָּם מִי יוֹדֵעַ מַהוּ \\
+        וַאֲנַחְנוּ הוֹלְכִים בְּעוֹלָמוֹת אֲחֵרִים.
+
+        וְיֵשׁ יָמִים \\
+        שֶׁל עֲבוֹדָה קָשָׁה שֶׁמְּבִיאָה סִפּוּק \\
+        וְיַחַד שָׁקֵט שֶׁזּוֹהֵר מִכָּל מִלָּה \\
+        וִיצִירָתִיּוֹת הָעוֹלָה עַל גְּדוֹתֵי הַתּוֹדָעָה \\
+        וְאַהֲבָה שֶׁכָּל שְׂעָרָהּ לְעֵינֶיהָ שֶׁמֶשׁ \\
+        וּמַחְשָׁבָה חַדָּה שֶׁמֵּיטִיבָה לִשְׁאֹל. \\
+
+
+        יֵשׁ יָמִים הַבּוֹהֲקִים מִכֹּל \\
+        וְיֵשׁ יָמִים שְׂאוֹרָם עָמוּם וְקַר \\
+        וַאֲנִי רוֹצֶה לָשִׁיר שִׁיר הַלֵּל לְכָל הַיָּמִים הַלָּלוּ \\
+        שֶׁבִּשְׁבִילָם הִנְנִי כָּאן.
+    \end{hebrew}
 \end{document}
